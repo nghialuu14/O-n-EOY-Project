@@ -4,8 +4,8 @@ This is the repository for team O(n) End Of Year project.
 Team is splitted into 3 branches:
 
 
-Interactive Website (Janice in charge)
+1. Interactive Website (Janice in charge)
 
-Games (Richard in charge)
+2. Games (Richard in charge)
 
-Machine Learning (Nghia in charge)
+3. Machine Learning (Nghia in charge)
