@@ -4,5 +4,7 @@ Team is splitted into 3 branches:
 
 
 Interactive Website (Janice in charge)
+
 Games (Richard in charge)
+
 Machine Learning (Nghia in charge)
