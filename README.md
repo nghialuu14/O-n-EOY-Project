@@ -1,9 +1,6 @@
 This is the repository for team O(n) End Of Year project.
 
-
-
-
-
+------------------------------------------------------------
 Team is splitted into 3 branches:
 
 
