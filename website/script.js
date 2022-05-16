@@ -56,7 +56,7 @@ function keyUpListener(event) {
 }
 
 function loadChar() {
-  img.src = '../imgs/owo.png';
+  img.src = 'imgs/owo.png';
   img.onload = function() {
     window.requestAnimationFrame(gameLoop);
   };
@@ -154,7 +154,7 @@ function gameLoop() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   let tb = new Image();
-  tb.src = '../imgs/tb.png';
+  tb.src = 'imgs/tb.png';
   // top left grave - 100, 130
   ctx.drawImage(tb, 200, 160, 60, 60);
   // top middle - 300, 130
@@ -165,18 +165,18 @@ function gameLoop() {
   ctx.drawImage(tb, 450, 300, 60, 60);
   ctx.drawImage(tb, 700, 300, 60, 60);
   let maus = new Image();
-  maus.src = '../imgs/maus.png';
+  maus.src = 'imgs/maus.png';
   // game (left)
   ctx.drawImage(maus, 290, 427, 90, 80);
   // ml (right)
   ctx.drawImage(maus, 560, 427, 90, 80);
 
   let tbsign = new Image();
-  tbsign.src = '../imgs/tbsign.png'
+  tbsign.src = 'imgs/tbsign.png'
   ctx.drawImage(tbsign, -10, 430, 250, 280);
 
   let lampl = new Image();
-  lampl.src = '../imgs/street-lamp.png'
+  lampl.src = 'imgs/street-lamp.png'
   ctx.drawImage(lampl, -10, 620, 80, 80);
 
   ctx.drawImage(lampl, -10, 100, 80, 80);
@@ -220,41 +220,41 @@ function gameLoop() {
   if (nearA(positionX, positionY) == true) {
     //console.log("true!");
     let mod1 = new Image();
-    mod1.src = '../imgs/tbs/tbsami.png';
+    mod1.src = 'imgs/tbs/tbsami.png';
     ctx.drawImage(mod1, 300, 80, 470, 600);
   }
   // for top middle grave
   if (nearB(positionX, positionY) == true) {
     let mod1 = new Image();
-    mod1.src = '../imgs/tbs/tbcal.png';
+    mod1.src = 'imgs/tbs/tbcal.png';
     ctx.drawImage(mod1, 300, 100, 470, 600);
   }
 
   //for top right grave
   if (nearC(positionX, positionY) == true) {
     let mod1 = new Image();
-    mod1.src = '../imgs/tbs/tbtori.png';
+    mod1.src = 'imgs/tbs/tbtori.png';
     ctx.drawImage(mod1, 300, 100, 470, 600);
   }
 
   //for bottom middle grave
   if (nearD(positionX, positionY) == true) {
     let mod1 = new Image();
-    mod1.src = '../imgs/tbs/testzoom.png';
+    mod1.src = 'imgs/tbs/testzoom.png';
     ctx.drawImage(mod1, 300, 100, 470, 600);
   }
 
   //for top right grave
   if (nearE(positionX, positionY) == true) {
     let mod1 = new Image();
-    mod1.src = '../imgs/tbs/testzoom.png';
+    mod1.src = 'imgs/tbs/testzoom.png';
     ctx.drawImage(mod1, 300, 100, 470, 600);
   }  
 
   //for top right grave
   if (nearF(positionX, positionY) == true) {
     let mod1 = new Image();
-    mod1.src = '../imgs/tbs/testzoom.png';
+    mod1.src = 'imgs/tbs/testzoom.png';
     ctx.drawImage(mod1, 300, 100, 470, 600);
   }  
 
@@ -262,7 +262,7 @@ function gameLoop() {
   if (nearML(positionX, positionY)) {
     // if press this key then open link in new tab
     let mlpop = new Image();
-    mlpop.src = '../imgs/mlsign.png';
+    mlpop.src = 'imgs/mlsign.png';
     ctx.drawImage(mlpop, 592, 458);
   }
 
@@ -270,7 +270,7 @@ function gameLoop() {
   if (nearGame(positionX, positionY)) {
     // if press this key then open link in new tab
     let gamepop = new Image();
-    gamepop.src = '../imgs/gamesign.png';
+    gamepop.src = 'imgs/gamesign.png';
     ctx.drawImage(gamepop, 230, 485);
   }
 
