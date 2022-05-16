@@ -4,7 +4,7 @@ body {
   background-size:cover;
   background-repeat:no-repeat;
   overflow: hidden;
-  background-color: rgba(30, 30, 82, .93);
+  background-color: rgba(60, 30, 82, .90);
   background-blend-mode: soft-light; 
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 canvas {
-  border: 1px solid #878787;
+  /*border: 1px solid #878787; */
   padding:0;
   margin: auto;
   display:flex;
@@ -33,30 +33,6 @@ h1 {
 
 h2 {
   color: white;
-}
-
-/* #game and #ml are temporary */
-#game {
-  background: white;
-  font-size: 20px;
-  color: yellow;
-  text-align: left;
-}
-#ml {
-  background: white;
-  font-size: 20px;
-  color: yellow;
-  text-align: right;
-}
-
-.oz {
-  position: absolute;
-  top: 67%;
-  left: 65%;
-  transform: translate(0%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .gate {
@@ -81,6 +57,11 @@ h2 {
   justify-content: center;
 }
 
+#gamepic {
+  display: flex;
+  justify-content: center;
+}
+
 /*.skeleton {
   position: fixed;
   width: 20px;
@@ -90,47 +71,6 @@ h2 {
   transform: rotate(45);
   
 }
-*/
-
-/*
-.profile {
-  background-color: gray;
-  padding:10px;
-  height: 50px;
-  width: 40px;
-  border-radius: 50px 50px 0px 0px;
-}
-
-.p-sami {
-  margin: 15%;
-  margin-left: 8%;
-}
-
-.p-janice {
-  margin: 15%;
-  margin-left: 10%;
-}
-
- .p-calvin {
-    margin: 15%;
-    margin-left: 15%;
-  }
-
-  p-tori {
-    margin: 15%;
-    margin-left: 20%;
-    margin-left: 30%;
-  }
-
-  p-huynh {
-      margin: 15%;
-      margin-left: 25%;
-  }
-
-  p-jenn {
-    margin: 15%;
-    margin-left: 30%;
-  }
 
 .owl {
   width:30vmin;
